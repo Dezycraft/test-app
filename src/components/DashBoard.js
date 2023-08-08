@@ -13,7 +13,9 @@ function DashBoard() {
             <h1 className="brand-logo-dashboard">Brand Logo</h1>
           </div>
           <div className='dash-add-btn'>
-            <button className='add-new-btn'>+ Add New Task</button>
+            <button className='add-new-btn'>
+              + Add New Task
+              </button>
           </div>
           <div className='dashboard-menu-bar'>
             <h2>

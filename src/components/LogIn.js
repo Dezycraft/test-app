@@ -1,7 +1,7 @@
 import React from 'react'
 import background from "../images/background.png"
 import googleLogo from "../images/googleLogo.png"
-// import Link from "react-router-dom"
+//import {Link} from "react-router-dom"
 
 function LogIn() {
   return (
@@ -27,23 +27,23 @@ function LogIn() {
                 <div className="input">
                     <div className="">
                         <label for="word">Email Address</label>
-                        <input type="email" class="form-input" name="email" placeholder="Insert your email" required />
+                        <input type="email" class="form-input" name="email" placeholder="Insert your email" />
                     </div>
                     <div className="">
                         <label for="word">Password</label>
-                        <input type="password" className="form-input" name="password" placeholder="Insert your password" required />
+                        <input type="password" className="form-input" name="password" placeholder="Insert your password" />
                     </div>
                     
                 </div>
                 <div className="keep-me">
-                    <input type="checkbox" className="form-input" name="checkbox" required />
+                    <input type="checkbox" className="form-input" name="checkbox" />
                     <label for="word" className="keep">Keep me logged in</label>
                     <a href='google.com'>Forgot Password?</a>
                 </div>
                 <div className="submit-btn">
-                    <button type="submit" className="btn">
+                       <button type="submit" className="btn">
                         Submit
-                    </button>
+                       </button>
                 </div>
             </form>
         </div>
