@@ -3,6 +3,10 @@ import searchNormal from "../images/searchNormal.png"
 import notification from "../images/notification.png"
 import moon from "../images/moon.png"
 import vector from "../images/vector.png"
+import overview from "../images/overview.png"
+import calendarTick from "../images/calendarTick.png"
+import calendar from "../images/calendar.png"
+import note from "../images/note.png"
 
 function DashBoard() {
   return (
@@ -23,23 +27,22 @@ function DashBoard() {
             </h2>
           </div>
           <div className='overview'>
-            <img></img>
+            <img src={overview} alt="overview"></img>
             <h3>Overview</h3>
           </div>
           <div className='today'>
-            <img></img>
+            <img src={calendarTick} alt="calendar"></img>
             <h3>Today</h3>
           </div>
           <div>
-            <img></img>
+            <img src={calendar} alt='calendar'></img>
             <h3>Schedule</h3>
           </div>
           <div>
-            <img></img>
+            <img src={note} alt='note'></img>
             <h3>Note</h3>
           </div>
           <div className='projects'>
-            <img></img>
             <select class="dropdown-select1">
               <option value="" disabled selected>Projects</option>
               <option value="option1">Option 1</option>
@@ -48,7 +51,6 @@ function DashBoard() {
              </select>
           </div>
           <div className='team'>
-            <img></img>
             <select class="dropdown-select2">
               <option value="" disabled selected>Team</option>
               <option value="option1">Option 1</option>

@@ -1,17 +1,19 @@
 import React from 'react'
 // //import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './index.css';
-import LogIn from './components/LogIn';
-//import DashBoard from './components/DashBoard';
-// //import SignUp from './components/SignUp';
+
+//import SignUp from './components/SignUp';
+//import LogIn from './components/LogIn';
+import DashBoard from './components/DashBoard';
+
 
 function App() {
   return (
     <>
       <div>
         {/* <SignUp /> */}
-        <LogIn />
-        {/* <DashBoard /> */}
+        {/* <LogIn /> */}
+        <DashBoard />
       </div>
     </>
   );
@@ -19,51 +21,9 @@ function App() {
 
 export default App
 
-
-
-
-// <Router>
-    //   <Routes>
-    //     <Route exact path="/" component={SignIn} />
-    //     <Route path="/" component={SignUp} />
-    //     <Route path="/" component={DashBoard} />
-    //     <Route path="/" component={LogIn} />
-          
-   
-    //   <main>
-    //     <Routes>
-          
-    //       <Route path="/signup" element={<SignUp />} />
-    //       <Route path="/login" element={<LogIn />} />
-    //       <Route path="/signin" element={<SignIn />} />
-    //       <Route path="/dashboard" element={<DashBoard />} />
-          
-   
-
-    // <Router>
-    //   <div>
-    //     <main>
-    //       <Routes>
-    //         <Route path="/signup" element={<SignUp />} />
-    //         <Route path="/login" element={<LogIn />} />
-    //         <Route path="/dashboard" element={<DashBoard />} />
-    //       </Routes>
-    //     </main>
-    //   </div>
-    // </Router>
-
-    // <Router>
-    //   <nav>
-    //     <Link to="/">DashBoard</Link>
-    //     <Link to="/LogIn">LogIn</Link>
-    //     <Link to="/SignUp">SignUp</Link>
-    //   </nav>
-    //   <Route path="/" component={Dashboard} />
-    //   <Route path="/another" component={LogIn} />
-    //   <Route path="/another" component={SignUp} />
-    // </Router>
-
-     
+  
+        
+     //My routing did not work so i just had to comment it out to be able to work on each page individually
 
     // <Router>
     //   <nav>
@@ -78,6 +38,7 @@ export default App
     //   </Switch>
     // </Router>
 
+
     // <Router>
     //   <nav>
     //     <Link to="/signup">Sign Up</Link>
@@ -91,14 +52,8 @@ export default App
     //   </Routes>
     // </Router>
 
-//     import React from 'react';
-// //import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-// import './index.css';
-// //import DashBoard from './components/DashBoard';
-// import LogIn from './components/LogIn';
-// //import SignUp from './components/SignUp';
 
-// const App = () => {
+// function App() {
 //   return (
 //     <>
 //         <div>
