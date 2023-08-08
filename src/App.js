@@ -3,8 +3,8 @@ import React from 'react'
 import './index.css';
 
 //import SignUp from './components/SignUp';
-//import LogIn from './components/LogIn';
-import DashBoard from './components/DashBoard';
+import LogIn from './components/LogIn';
+//import DashBoard from './components/DashBoard';
 
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
     <>
       <div>
         {/* <SignUp /> */}
-        {/* <LogIn /> */}
-        <DashBoard />
+        <LogIn />
+        {/* <DashBoard /> */}
       </div>
     </>
   );

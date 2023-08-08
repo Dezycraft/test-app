@@ -249,14 +249,12 @@ input[type="checkbox"] {
 
 /*Dashboard Right*/
 .navbar-container {
-  width: 70%;
+  width: 100%;
   border-bottom: 1px solid rgb(201, 210, 221);
   justify-content: space-between;
 }
 .navbar {
   display: flex;
-  padding-bottom: 10px;
-  padding-top: 10px;
   border-bottom: 1px solid rgb(201, 210, 221);
   box-shadow: 2px 2px 2px #e5e6ea;
 }
@@ -267,29 +265,30 @@ input[type="checkbox"] {
   display: inline-block;
   font-size: 12px;
   color: rgb(93, 91, 91);
-  font-weight: 100;
-  padding-left: 100px;
-
+  font-weight: 200;
+  margin: 15px 300px 10px 20px;
 }
 .search-bar {
   display: block;
-  padding-left: 100px;
+  margin: 10px 300px 10px 10px;
 }
 .search-bar img {
-  padding-right: 0px;
   width: 20px;
 }
 .nav-icons img {
   display: inline-block;
   width: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .search-bar input {
   outline: none;
   border: none;
-  padding-left: 5px;
 }
 
 @media (max-width: 768px) {
+  /*This is for LogIn and SignUp page*/
    .image-part {
     display: none;
    }
@@ -299,7 +298,167 @@ input[type="checkbox"] {
    .form-section {
     border: none;
     box-shadow: none;
-    width: 80%;
-    height: 100%;
+    width: 100%;
+  
+  }
+   
+  .brand-logo {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(23, 20, 20);
+    text-shadow: 1px 2px 4px rgb(136, 131, 131);
+  }
+  /*signUp/signIn*/
+  .after-brand-logo {
+    display: flex;
+    text-align: center;
+    background-color: rgb(245, 248, 250);
+    margin: 15px;
+    background-color: rgb(245, 248, 250);
+    border-radius: 20px;
+    justify-content: space-between;
+  }
+  .signIn {
+    margin-right: 20px;
+  }
+  .signUp {
+    margin-left: 20px;
+  }
+  #signInUp-btn {
+    padding: 8px 10px;
+    background-color: rgb(240, 244, 248);
+    color: #34325e;
+    cursor: pointer;
+    border: none;
+  }
+  #signInUp-btn:hover {
+    background-color: rgb(152, 185, 215);
+    color: #437EF7;
+    border-radius: 40px;
+    transition: 1s;
+  }
+  .google-signUp {
+    text-align: center;
+    margin-top: 10px;
+    
+  }
+  .google-btn {
+    padding: 5px 5px;
+    background-color: inherit;
+    color: #34325e;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+  }
+  .google-btn:hover {
+    color: #437EF7;
+    transition: 0.5s;
+  }
+  .google-btn img{
+    width: 15px;
+  }
+  .logIn-form {
+    padding-top: 20px;
+  }
+  .input label {
+    display: block;
+    font-size: 15px;
+    color: #34325e;
+    margin: 10px;
+  }
+  input[type='email'], [type='password'], [type='text'] {
+    font-size: 14px;
+    padding: 8px 7px;
+    width: 95%;
+    margin: 10px;
+    margin-bottom: 10px;
+  }
+  input::placeholder {
+    color: rgb(183, 183, 217);
+  }
+  
+  .keep-me {
+    display: flex;
+    display: inline block;
+    padding-top: 30px;
+  }
+  .keep-me .keep {
+    font-size: 15px;
+    color: #34325e;
+  }
+  .keep-me a {
+    padding-left: 55%;
+  }
+  input[type="checkbox"] {
+    margin-left: 8px;
+  
+  }
+  .submit-btn {
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;  
+  }
+  .btn {
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: #437EF7;
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    padding: 12px 6px;
+  }
+  .btn:hover {
+    background-color: #abc3f3;
+    color: #34325e;
+    transition: 0.5s;
+  }
+
+   /*This is for the dashboard page*/
+   .brand-logo-container {
+    display: none;
    }
+   
+  .navbar-content {
+    display: flex;
+  }
+  .navbar h2 {
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(93, 91, 91);
+    font-weight: 200;
+    margin: 0px 3px 0px 0px;
+  }
+  .search-bar {
+    display: block;
+    margin: 0px 0px 0px 0px;
+  }
+  .search-bar img {
+    width: 20px;
+  }
+  .nav-icons img {
+    display: inline-block;
+    width: 12px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .search-bar input {
+    outline: none;
+    border: none;
+  }
+  .navbar-container {
+    width: 100%;
+    border-bottom: 1px solid rgb(201, 210, 221);
+    
+  }
+  .navbar {
+    border-bottom: 1px solid rgb(201, 210, 221);
+    box-shadow: 2px 2px 2px #e5e6ea;
+  }
+  .navbar-content {
+
+  }
 }
